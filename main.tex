@@ -1,0 +1,75 @@
+\DocumentMetadata{tagging = on}
+\documentclass{ltx-talk}
+
+%\usetheme{Madrid}
+%\usecolortheme{default}
+
+%------------------------------------------------------------
+%This block of code defines the information to appear in the
+%Title page
+\title{The ltx-talk class}
+\subtitle{A replacement for beamer which allows PDF tagging}
+
+\author{Overleaf Support}
+\date{\today}
+
+\begin{document}
+
+%The next statement creates the title page.
+\begin{frame}
+  \maketitle
+\end{frame}
+
+
+%---------------------------------------------------------
+%This block of code is for the table of contents after
+%the title page
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+%---------------------------------------------------------
+
+
+\section{What is it?}
+
+%---------------------------------------------------------
+%Changing visivility of the text
+\begin{frame}
+\frametitle{ltx-talk on CTAN}
+Please see CTAN (\href{https://ctan.org/}{ctan.org}) for more information about \href{https://ctan.org/pkg/ltx-talk}{ltx-talk}.
+
+
+As mentioned there,
+\begin{itemize}
+    \item \texttt{ltex-talk} class is focused on producing (on-screen) presentations, along with support material such as handouts and speaker notes.
+    \item \texttt{ltex-talk} class has syntax similar to the popular beamer class, although there are some (deliberate) differences. 
+    \item \texttt{ltex-talk} has been implemented to support creation of tagged (accessible) PDF output as a core aim. As such, it is suited to creating output for reuse in other formats, e.g. HTML conversions, without additional steps.
+\end{itemize}
+
+
+\end{frame}
+
+\section{How canI use it?}
+
+\begin{frame}
+\frametitle{ltx-talk with Overleaf}
+\texttt{ltex-talk} is available on Overleaf, but it requires a few special settings.
+\begin{itemize}
+    \item The \texttt{ltex-talk}class requires \LaTeX 2025-11-01 or later.
+    \item Currently, this version is only available on Overleaf through the "rolling TeX Live" versions available through \textbf{Overleaf Labs}.
+    \item The PDF tagging support requires the use of the LuaLaTeX compiler.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{A richer example}
+A more involved example using \texttt{ltex-talk} is available for download as a zip file from the class author's blog: \href{https://www.texdev.net/2025/07/12/ltx-talk-a-new-class-for-presentations}{https://www.texdev.net/2025/07/12/ltx-talk-a-new-class-for-presentations}.
+
+The zip file provided there can be uploaded to Overleaf to create a project, but the TeX Live version must be updated to be the "rolling" version and the compiler must be updated to be LuaLaTeX.
+
+\end{frame}
+
+
+\end{document}
