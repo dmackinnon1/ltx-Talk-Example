@@ -12,87 +12,52 @@
   "buildDate" : 1752598740000
 }]},"jobs":[{"itemDetails":{
   "name" : "/app/main.pdf",
-  "size" : 36616
+  "size" : 44521
 },"validationResult":[ {
   "details" : {
-    "passedRules" : 1721,
-    "failedRules" : 2,
-    "passedChecks" : 5916,
-    "failedChecks" : 2,
-    "tags" : [ "metadata", "syntax" ],
-    "ruleSummaries" : [ {
-      "ruleStatus" : "FAILED",
-      "specification" : "ISO 14289-2:2024",
-      "clause" : "5",
-      "testNumber" : 1,
-      "status" : "failed",
-      "failedChecks" : 1,
-      "tags" : [ "metadata" ],
-      "description" : "The PDF/UA version of a file shall be specified in the value of the Metadata entry in the document catalog using the PDF/UA identification schema",
-      "object" : "MainXMPPackage",
-      "test" : "containsPDFUAIdentification == true",
-      "checks" : [ {
-        "status" : "failed",
-        "context" : "root/document[0]/metadata[0](151 0 obj PDMetadata)/XMPPackage[0]",
-        "errorMessage" : "The document metadata stream doesn't contain PDF/UA Identification Schema",
-        "errorArguments" : [ ]
-      } ]
-    }, {
-      "ruleStatus" : "FAILED",
-      "specification" : "ISO 14289-2:2024",
-      "clause" : "8.11.2",
-      "testNumber" : 1,
-      "status" : "failed",
-      "failedChecks" : 1,
-      "tags" : [ "syntax" ],
-      "description" : "The ViewerPreferences dictionary of the document catalog dictionary shall be present and shall contain at least the DisplayDocTitle key with a value of true, as described in ISO 32000-2:2020, Table 147",
-      "object" : "CosDocument",
-      "test" : "DisplayDocTitle == true",
-      "checks" : [ {
-        "status" : "failed",
-        "context" : "root",
-        "errorMessage" : "ViewerPreferences dictionary is not present in the document Catalog, or DisplayDocTitle key is set to false or is not present in the ViewerPreferences dictionary (ViewerPreferences = null, DisplayDocTitle = null)",
-        "errorArguments" : [ null, null ]
-      } ]
-    } ]
+    "passedRules" : 1723,
+    "failedRules" : 0,
+    "passedChecks" : 5924,
+    "failedChecks" : 0,
+    "ruleSummaries" : [ ]
   },
   "jobEndStatus" : "normal",
   "profileName" : "PDF/UA-2 + Tagged PDF validation profile",
-  "statement" : "PDF file is not compliant with Validation Profile requirements.",
-  "compliant" : false
+  "statement" : "PDF file is compliant with Validation Profile requirements.",
+  "compliant" : true
 } ],"processingTime":{
-  "start" : 1765062396657,
-  "finish" : 1765062397703,
-  "duration" : "00:00:01.046",
-  "difference" : 1046
+  "start" : 1765065133680,
+  "finish" : 1765065134758,
+  "duration" : "00:00:01.078",
+  "difference" : 1078
 }}],"batchSummary":{
   "duration" : {
-    "start" : 1765062396537,
-    "finish" : 1765062397775,
-    "duration" : "00:00:01.238",
-    "difference" : 1238
+    "start" : 1765065133547,
+    "finish" : 1765065134804,
+    "duration" : "00:00:01.257",
+    "difference" : 1257
   },
   "totalJobs" : 1,
   "outOfMemory" : 0,
   "veraExceptions" : 0,
+  "featuresSummary" : {
+    "failedJobCount" : 0,
+    "totalJobCount" : 0,
+    "successfulJobCount" : 0
+  },
   "repairSummary" : {
     "failedJobCount" : 0,
     "totalJobCount" : 0,
     "successfulJobCount" : 0
   },
   "multiJob" : false,
-  "featuresSummary" : {
-    "failedJobCount" : 0,
-    "totalJobCount" : 0,
-    "successfulJobCount" : 0
-  },
   "failedEncryptedJobs" : 0,
   "failedParsingJobs" : 0,
   "validationSummary" : {
-    "compliantPdfaCount" : 0,
     "failedJobCount" : 0,
     "totalJobCount" : 1,
-    "nonCompliantPdfaCount" : 1,
+    "compliantPdfaCount" : 1,
+    "nonCompliantPdfaCount" : 0,
     "successfulJobCount" : 1
   }
 }}}

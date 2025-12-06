@@ -1,1 +1,1 @@
-FAIL /app/main.pdf ua2
+PASS /app/main.pdf ua2
