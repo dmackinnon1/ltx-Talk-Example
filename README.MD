@@ -24,7 +24,7 @@ The **Compile PDF (latexmk,lualatex)** workflow will compile the source and save
 
 | action | status | notes |
 |--------|--------| ------------|
-| PDF accessibility verification |![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdmackinnon1%2Foverleaf-research-workspace%2Fmain%2Fbuild-info%2Fa11y-build-info.json&query=lastBuild&style=flat-square&label=Last%20Generated&labelColor=blue&color=black)<br> ![Dynamic Regex Badge](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdmackinnon1%2Fltx-Talk-Example%2Frefs%2Fheads%2Fmain%2Fa11y-statement.txt&search=(.)*ua2&label=Accessibility%20Test)|[Download the full report](a11y-report.json)|
+| PDF accessibility verification |![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdmackinnon1%2Foverleaf-research-workspace%2Fmain%2Fbuild-info%2Fa11y-build-info.json&query=lastBuild&style=flat-square&label=Last%20Generated&labelColor=blue&color=black)<br> ![Dynamic Regex Badge](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdmackinnon1%2Fltx-Talk-Example%2Frefs%2Fheads%2Fmain%2Fa11y-statement.txt&search=(.)*ua2&label=Accessibility%20Test)|[See the full report](a11y-report.json)|
 
 The **Check PDF Accessibility (veraPDF)** workflow will install and run the VeraPDF accessibility checker. Two reports are generated: a simple a11y-statement.txt report and a more detailed a11y-report.json report. The build time for the report generation can bre found in ./build-info/a11y-build-info.json.
 
