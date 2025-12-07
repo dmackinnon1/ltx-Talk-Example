@@ -1,10 +1,10 @@
 ## A simple ltx-talk example
 
-This LaTeX project (available on GitHub at [ltx-Talk-Example](https://github.com/dmackinnon1/ltx-Talk-Example/)) provides a simple example of ltx-talk class usage. This class is intended to be a replacement for the popular beamer class, but with PDF tagging support.
+This LaTeX project (available on GitHub at [ltx-Talk-Example](https://github.com/dmackinnon1/ltx-Talk-Example/)) provides a simple example of `ltx-talk` class usage. This class is intended to be a replacement for the popular beamer class, but with PDF tagging support.
 
 - Please see the examples of how to add in tagging here: https://latex3.github.io/tagging-project/documentation/usage-instructions.
 
-- For more informationon ltx-talk, please see: https://www.texdev.net/2025/07/12/ltx-talk-a-new-class-for-presentations.
+- For more informationon `ltx-talk`, please see: https://www.texdev.net/2025/07/12/ltx-talk-a-new-class-for-presentations.
 
 
 ## Overleaf prerequisites
