@@ -1,6 +1,6 @@
 ## A simple ltx-talk example
 
-This project provides a simple example of ltx-talk class usage. This class is intended to be a replacement for the popular beamer class, but with PDF tagging support.
+This LaTeX project (available on GitHub at [ltx-Talk-Example](https://github.com/dmackinnon1/ltx-Talk-Example/)) provides a simple example of ltx-talk class usage. This class is intended to be a replacement for the popular beamer class, but with PDF tagging support.
 
 - Please see the examples of how to add in tagging here: https://latex3.github.io/tagging-project/documentation/usage-instructions.
 
