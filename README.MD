@@ -1,0 +1,22 @@
+## A simple ltx-talk example
+
+This project provides a simple example of ltx-talk class usage. This class is intended to be a replacement for the popular beamer class, but with PDF tagging support.
+
+- Please see the examples of how to add in tagging here: https://latex3.github.io/tagging-project/documentation/usage-instructions.
+
+- For more informationon ltx-talk, please see: https://www.texdev.net/2025/07/12/ltx-talk-a-new-class-for-presentations.
+
+
+## Overleaf prerequisites
+
+Currently, to compile this in Overleaf you will need to ensure that you have joined the **Overleaf Labs** program, have opted in to the **Rolling TeX Live releases experiment**, and have set the TeX Live version on your project to be **TeX Live (rolling)**.
+
+You must also set the compiler to be **LuaLaTeX**.
+
+## GitHub workflows
+This project includes some GitHub workflow definitions that can be used to run an accessibility test against the generated PDF.
+
+The **Compile PDF (latexmk,lualatex)** workflow will compile the source and save the PDF in the project. Overleaf does not save the compiled PDF in the project, but if you are using GitHub Sync, you can run the GitHub workflow on the GitHub side do this. In general, it is not recommended to save a copy of the PDF in the project, but it is done here to simplify the accessibility testing process. The PDF compiled by the GitHub workflow is saved as main.pdf, and the build time for this PDF can be found in the ./build-info/pdf-build-info.json file.
+
+The **Check PDF Accessibility (veraPDF)** workflow will install and run the VeraPDF accessibility checker. Two reports are generated: a simple a11y-statement.txt report and a more detailed a11y-report.json report. The build time for the report generation can bre found in ./build-info/a11y-build-info.json.
+
